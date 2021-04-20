@@ -8,8 +8,34 @@ body {
   padding: 3% 20% 7%;
 }
 
+#Form {
+  padding: 0 15% 5%;
+  text-align: center;
+}
+
+#Footer {
+  background-color: #91C788;
+  text-align: center;
+  padding: 3%;
+}
+
 #Work {
   padding: 0 30%;
+  text-align: center;
+}
+
+#Testimonial {
+  padding: 0 30%;
+  text-align: center;
+}
+
+#Question {
+  padding: 10% 30% 3%;
+  text-align: center;
+}
+
+#Testimonial-Card {
+  padding: 0 25%;
   text-align: center;
 }
 
@@ -106,6 +132,25 @@ body {
   }
   #Menu {
     padding: 0 10%;
+  }
+  #Testimonial {
+    padding: 0 10%;
+  }
+  #Testimonial-Card {
+    padding: 5% 10%;
+  }
+  #Question {
+    padding: 5% 10%;
+  }
+  #Form {
+    padding: 0 10% 5%;
+  }
+  .card {
+    width: 70%;
+    border-top-right-radius: 50px;
+  }
+  .card {
+    margin: 0 auto;
   }
 }
 
@@ -234,12 +279,13 @@ p {
 
 .a-about {
   text-decoration: none;
-  padding: 5% 5%;
+  color: #000;
 }
 
 .about-icon {
-  font-size: 2rem;
-  padding: 0 5%;
+  color: #000;
+  font-size: 1.8rem;
+  padding: 0 2% 0 5%;
 }
 
 h2 {
@@ -272,12 +318,8 @@ h2 {
 }
 
 .menu-col {
+  padding: 1% 2% 3%;
   text-align: left;
-  color: #000;
-  margin: auto 4% 3%;
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  background-color: white;
 }
 
 .menu-img {
@@ -289,4 +331,113 @@ h2 {
 .menu-h2{
   display: inline-block;
   padding: 5% 0 0 3%;
+}
+
+.card-header {
+  padding: 0 0;
+  background-color: #fff;
+  border-top-right-radius: 50px;
+  border: 0px;
+}
+
+.card {
+  border-top-right-radius: 50px;
+}
+
+.menu-title {
+  color: #000;
+  padding-bottom: 0;
+  font-size: 1.5rem;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.menu-price {
+  color: #000;
+  padding-bottom: 0;
+  font-size: 1.5rem;
+  margin-left: 25%;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.menu-p {
+  color: #000;
+  font-size: 0.7rem;
+  padding-top: 0;
+}
+
+.menu-p2 {
+  color: #000;
+  font-size: 0.8rem;
+}
+
+.card-body {
+  padding-bottom: 0;
+}
+
+.card-footer {
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-right: 0;
+  border-top-style: none;
+  background-color: #fff;
+}
+
+.star-icon {
+  font-size: 1.5rem;
+  color: #717171;
+}
+.star-icon-orange {
+  font-size: 1.5rem;
+  color: #91C788;
+}
+
+.butn-menu{
+  width: 80px;
+  float: right;
+  background-color: #91C788;
+  color: white;
+  border-top-left-radius: 30px;
+}
+
+.load-div {
+  text-align: center;
+  padding: 7% 0 10%;
+}
+
+.butn-load {
+  width: 8rem;
+  background-color: #91C788;
+  color: #fff;
+  font-size: 15px;
+  height: 3rem;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.test-p1 {
+  color: #000;
+  font-size: 1rem;
+  padding-top: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.test-p2 {
+  display: inline-block;
+  margin-left: 1%;
+}
+
+.test-img {
+  width: 25%;
+  padding-bottom: 5%;
+}
+
+.form-control {
+  border-radius: 50px
+}
+
+.footer-p {
+  margin-bottom: 0;
 }
